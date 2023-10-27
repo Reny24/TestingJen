@@ -5,7 +5,7 @@ FROM maven:3.8.4-openjdk-11-slim AS tests
 WORKDIR /app
 
 # Copia il file POM (pom.xml) per le dipendenze
-COPY /app/pom.xml .
+COPY pom.xml /app/
 
 # Esegui l'installazione delle dipendenze da Maven
 RUN mvn clean install

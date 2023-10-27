@@ -21,7 +21,7 @@
                 <artifactId>exec-maven-plugin</artifactId>
                 <version>3.1.0</version>
                 <configuration>
-                    <mainClass>src.java.org.example.Main</mainClass> <!-- Sostituisci con il nome completo della tua classe principale -->
+                    <mainClass>Test.src.java.org.example.Main</mainClass> <!-- Sostituisci con il nome completo della tua classe principale -->
                 </configuration>
             </plugin>
             <!-- Altri plugin -->

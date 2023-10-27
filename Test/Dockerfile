@@ -1,5 +1,5 @@
 # Usa un'immagine di Maven come base
-FROM maven:3.8.4-openjdk-17-slim AS tests
+FROM maven:3.8.4-openjdk-11-slim AS tests
 
 # Crea una directory di lavoro all'interno dell'immagine
 WORKDIR /app

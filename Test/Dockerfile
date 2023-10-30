@@ -15,3 +15,4 @@ COPY . /app/
 
 # Comando per eseguire la build e i test
 CMD ["mvn", "clean", "install"]
+CMD ["mvn","exec:java","-Dexec.mainClass=Main"]

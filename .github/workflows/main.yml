@@ -24,4 +24,4 @@ jobs:
 
 
     - name: Publish to GitHub Packages
-      run: mvn deploy 
+      run: mvn deploy --file Test/pom.xml

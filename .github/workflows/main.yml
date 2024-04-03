@@ -6,6 +6,9 @@ on:
 
 jobs:
   build:
+    permissions: 
+      contents: read
+      packages: write
     runs-on: ubuntu-latest
 
     steps:
@@ -25,3 +28,5 @@ jobs:
 
     - name: Publish to GitHub Packages
       run: mvn deploy --file Test/pom.xml
+      env:
+        GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}

@@ -18,6 +18,8 @@ jobs:
       with:
           app_id: ${{ secrets.APP_ID }}
           private_key: ${{ secrets.PRIVATE_KEY }}
+          installation_retrieval_mode: repository
+          installation_retrieval_payload: Reny24/TestingJen
          
         
     - name: Set up JDK 11

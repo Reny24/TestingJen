@@ -25,9 +25,9 @@ jobs:
       uses: tibdex/github-app-token@v2
       id: login
       with:
-        app-id: ${{ secrets.APP_ID }}
-        private-key: ${{ secrets.APP_PRIVATE_KEY }}
-        installation-id: ${{ secrets.INSTALLATION_ID }}
+        app_id: ${{ secrets.APP_ID }}
+        private_key: ${{ secrets.APP_PRIVATE_KEY }}
+        installation_id: ${{ secrets.INSTALLATION_ID }}
 
     - name: Publish to GitHub Packages
       run: |

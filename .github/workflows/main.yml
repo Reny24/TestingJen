@@ -29,4 +29,4 @@ jobs:
     - name: Publish to GitHub Packages
       run: mvn deploy --file Test/pom.xml
       env:
-        GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        GH_TOKEN: ${{ secrets.PP_TOKEN }}

@@ -9,8 +9,8 @@ jobs:
     #       INSTALLATION_ID: ${{secrets.INSTALLATION_ID}}
     #       APP_SECRET: ${{secrets.APP_SECRET}}
     permissions:
-      contents: read
-      packages: write
+      contents: write
+      
     runs-on: ubuntu-latest
     steps:
 

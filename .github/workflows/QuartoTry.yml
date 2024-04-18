@@ -3,7 +3,7 @@ on:
   repository_dispatch: 
       types: [ workflow_run ]
 jobs:
-  microservice-test:
+  workflow_run:
 
     #       APP_ID: ${{secrets.APP_ID}}
     #       INSTALLATION_ID: ${{secrets.INSTALLATION_ID}}

@@ -1,5 +1,6 @@
 name: Publish/Push Artifact Package by Auth Github App
 on:  
+  workflow_dispatch:
   repository_dispatch:
       types: [ trigger-workflow-b ]
 jobs:
